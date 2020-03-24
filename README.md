@@ -18,10 +18,16 @@ Since March, 19th 2020, the Brazilian Ministry of Health is not sharing any CSV 
 
 # Contributors
 Maria Giulia Martins (FEEC-Unicamp)
+
 João Luís Carvalho de Abreu (FEEC-Unicamp)
+
 Guilherme Lisboa (IMECC-Unicamp)
+
 Thiago Ribas Bella (FEEC-Unicamp)
+
 Júlia De Lázari (FEEC-Unicamp)
+
 Prof. Paula Dornhofer Paro Costa (FEEC-Unicamp)
+
 Prof. Dalton Martins (Faculty of Information Sciences - UnB)
 
