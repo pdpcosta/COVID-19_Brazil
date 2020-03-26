@@ -13,55 +13,40 @@ PLOT<- pbz+ theme_bw() +
   shadow_mark()
 animate(PLOT,height = 600, width =1200,renderer = gifski_renderer("covid19_Brazil.gif"))
 
+####ShinyApp Dashboard for Brazil_COVID19
+
 library(shiny)
+library(ggplot2)
+library(tidyverse)
+library(gganimate)
+library(magick)
+#data <- read.csv("https://raw.githubusercontent.com/pdpcosta/COVID-19_Brazil/master/COVID-19_Brazil_States_CONFIRMED.csv")
+brazil_data=read.csv("data.csv")
+data<-drop_na(data)
+brazil_data$Date<-as.POSIXct(brazil_data$Date)
 
 ui <- fluidPage(
   title = "Dashboard Brazil for COVID19",
-  sidebarLayout(
-    sidebarPanel(
-      conditionalPanel(
-        'input.dataset === "data"',
-        checkboxGroupInput("show_vars", "Columns in Brazil_covid19_data to show:",
-                           names(data), selected = names(data))
-      ),
-      conditionalPanel(
-        'input.dataset === "data"',
-        helpText("Click the column header to sort a column.")
-      ),
-      conditionalPanel(
-        'input.dataset === "data"',
-        helpText("Display 5 records by default.")
-      )
-    ),
-    mainPanel(
-      tabsetPanel(
-        id = 'data',
-        tabPanel("data", DT::dataTableOutput("mytable1")),
-        tabPanel("data", DT::dataTableOutput("mytable2")),
-        tabPanel("data", DT::dataTableOutput("mytable3"))
-      )
-    )
-  )
+  varSelectInput("variable", "Variable:", brazil_data),
+  dateRangeInput("Daterange", "Dashboard Brazil for COVID19", 
+                 start  = "2020-02-25",
+                 end    = "2020-03-24",
+                 min    = "2020-01-01",
+                 max    = "2020-03-24",
+                 format = "mm/dd/yyyy",
+                 separator = " to "),
+  plotOutput("plot1")
 )
 
 server <- function(input, output) {
-  
-  # choose columns to display
-  data2 = metadata[sample(nrow(data), 1000), ]
-  output$mytable1 <- DT::renderDataTable({
-    DT::datatable(data2[, input$show_vars, drop = FALSE])
+  output$plot1 <- renderPlot({
+    ggplot(brazil_data,aes(brazil_data$Date,brazil_data$Confirme,, color= brazil_data$State, size = brazil_data$Confirmed, shape= brazil_data$Region)) +geom_point()+ theme_bw() +
+      # gganimate specific bits:
+      labs(title = 'Date: {frame_time} Prepared by:Kirti Sundar Sahu (Updated as on March 24,2020)', x = 'Date', y = 'Confirmed case of COVID19') +
+      transition_time(brazil_data$Date) +
+      ease_aes('linear') +
+      shadow_mark()
   })
-  
-  # sorted columns are colored now because CSS are attached to them
-  output$mytable2 <- DT::renderDataTable({
-    DT::datatable(data2, options = list(orderClasses = TRUE))
-  })
-  
-  # customize the length drop-down menu; display 5 rows per page by default
-  output$mytable3 <- DT::renderDataTable({
-    DT::datatable(data2, options = list(lengthMenu = c(5, 30, 50), pageLength = 5))
-  })
-  
 }
 
-shinyApp(ui, server)
+shinyApp(server = server,ui=ui)
