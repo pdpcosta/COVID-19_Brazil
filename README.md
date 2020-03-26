@@ -16,6 +16,8 @@ Since March, 19th 2020, the Brazilian Ministry of Health is not sharing any CSV 
 * Column 3 - Date - Format YYYY-MM-DD
 * Column 4 - Number of confirmed cases on date (maximum number found in the multiple sources of information)
 
+ShinyApp for Brazil: https://kirtisundarsahu.shinyapps.io/BRAZIL_shinyapp/ 
+
 # Contributors
 Maria Giulia Martins (FEEC-Unicamp)
 
@@ -30,4 +32,6 @@ Júlia De Lázari (FEEC-Unicamp)
 Prof. Paula Dornhofer Paro Costa (FEEC-Unicamp)
 
 Prof. Dalton Martins (Faculty of Information Sciences - UnB)
+
+Kirti Sundar Sahu (University of Waterloo, Canada)
 
