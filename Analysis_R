@@ -1,0 +1,14 @@
+library(tidyverse)
+library(gganimate)
+library(magick)
+data= COVID.19_Brazil_States_CONFIRMED
+data$Date<-as.POSIXct(data$Date)
+pbz<-ggplot(data,aes(data$Date,data$Confirmed, color= data$State, size = data$Confirmed, shape= data$Region)) +geom_point()
+PLOT<- pbz+ theme_bw() +
+  # gganimate specific bits:
+  labs(title = 'Date: {frame_time} Prepared by:Kirti Sundar Sahu (Updated as on March 24,2020)', x = 'Date', y = 'Confirmed case of COVID19') +
+  transition_time(data$Date) +
+  ease_aes('linear') +
+  shadow_mark()
+animate(PLOT,height = 600, width =1200,renderer = gifski_renderer("covid19_Brazil.gif"))
+
