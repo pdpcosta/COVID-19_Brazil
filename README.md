@@ -19,6 +19,10 @@ Since March, 19th 2020, the Brazilian Ministry of Health is not sharing any CSV 
 ShinyApp for Brazil: https://kirtisundarsahu.shinyapps.io/BRAZIL_shinyapp/ 
 Shiny Dashboard for Brazil: https://kirtisundarsahu.shinyapps.io/Brazil_DashBoard/
 
+# Updates
+
+2020-03-27 - Datasets updated and added dataset with death numbers
+
 # Contributors
 Maria Giulia Martins (FEEC-Unicamp)
 
@@ -29,6 +33,8 @@ Guilherme Lisboa (IMECC-Unicamp)
 Thiago Ribas Bella (FEEC-Unicamp)
 
 Júlia De Lázari (FEEC-Unicamp)
+
+Victor Macchini (FEEC - Unicamp)
 
 Prof. Paula Dornhofer Paro Costa (FEEC-Unicamp)
 
