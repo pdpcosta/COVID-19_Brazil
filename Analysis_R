@@ -54,20 +54,22 @@ shinyApp(server = server,ui=ui)
 
 #############Shiny Dashboard
 library(shiny)
-library(ggplot2)
+library(plotly)
+library(tidyverse)
 #data <- read.csv("https://raw.githubusercontent.com/pdpcosta/COVID-19_Brazil/master/COVID-19_Brazil_States_CONFIRMED.csv")
 brazil_data=read.csv("data.csv")
 brazil_data<-drop_na(brazil_data)
 brazil_data$Date<-as.POSIXct(brazil_data$Date)
 
 library(shinydashboard)
+p=ggplot(brazil_data,aes(brazil_data$Date,brazil_data$Confirme,color= brazil_data$Region, size = brazil_data$Confirmed,text = brazil_data$State)) +geom_point(frame = brazil_data$Date)
 
 ui <- dashboardPage(
   dashboardHeader(title = "Brazil COVID19 Dashboard"),
   dashboardSidebar(),
   dashboardBody(
     fluidRow(
-      box(plotOutput("plot1")),
+      box(plotlyOutput("plot1")),
       box(
         title = "Confirmed cases of COVID19 cases in Brazil as on March 26, 2020",
         ),
@@ -85,9 +87,9 @@ server <- function(input, output) {
   set.seed(122)
   brazil_data=read.csv("data.csv")
   
-  output$plot1 <- renderPlot({
-    ggplot(brazil_data,aes(brazil_data$Date,brazil_data$Confirme,color= brazil_data$Region, size = brazil_data$Confirmed,text = brazil_data$State)) +geom_point()
-    #plot_ly(x=brazil_data$Date,y=brazil_data$Confirme, size = brazil_data$Confirmed, color = brazil_data$Region, text = brazil_data$State,type = 'scatter',mode = 'markers')
+  output$plot1 <- renderPlotly({
+    #ggplot(brazil_data,aes(brazil_data$Date,brazil_data$Confirme,color= brazil_data$Region, size = brazil_data$Confirmed,text = brazil_data$State)) +geom_point(frame = brazil_data$Date, ids =brazil_data$State)
+    plot_ly(x=brazil_data$Date,y=brazil_data$Confirme, size = brazil_data$Confirmed, color = brazil_data$Region, text = brazil_data$State,type = 'scatter',mode = 'markers')
   })
 }
 
