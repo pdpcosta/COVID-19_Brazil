@@ -17,6 +17,7 @@ Since March, 19th 2020, the Brazilian Ministry of Health is not sharing any CSV 
 * Column 4 - Number of confirmed cases on date (maximum number found in the multiple sources of information)
 
 ShinyApp for Brazil: https://kirtisundarsahu.shinyapps.io/BRAZIL_shinyapp/ 
+Shiny Dashboard for Brazil: https://kirtisundarsahu.shinyapps.io/Brazil_DashBoard/
 
 # Contributors
 Maria Giulia Martins (FEEC-Unicamp)
