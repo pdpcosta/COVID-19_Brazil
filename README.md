@@ -22,6 +22,7 @@ Shiny Dashboard for Brazil: https://kirtisundarsahu.shinyapps.io/Brazil_DashBoar
 # Updates
 
 2020-03-27 - Datasets updated and added dataset with death numbers
+2020-03-28 - Datasets updated but still with some missing points in death numbers
 
 # Contributors
 Maria Giulia Martins (FEEC-Unicamp)
