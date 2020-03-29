@@ -31,13 +31,15 @@ Since March, 19th 2020, the Brazilian Ministry of Health is not sharing any CSV 
 * Column 4 - Number of confirmed cases on date (maximum number found in the multiple sources of information)
 * Column 5 - Number of deaths by coronavirus on date (maximum number found in the multiple sources of information)
 
-ShinyApp for Brazil: https://kirtisundarsahu.shinyapps.io/BRAZIL_shinyapp/ 
-Shiny Dashboard for Brazil: https://kirtisundarsahu.shinyapps.io/Brazil_DashBoard/
+Under development: ShinyApp for Brazil: https://kirtisundarsahu.shinyapps.io/BRAZIL_shinyapp/ , Shiny Dashboard for Brazil: https://kirtisundarsahu.shinyapps.io/Brazil_DashBoard/
 
 ## Updates
 
 2020-03-27 - Datasets updated and added dataset with death numbers
+
 2020-03-28 - Datasets updated but still with some missing points in death numbers
+
+2020-03-29 - Datasets updated, no missing points in death numbers, but some states did not updated their numbers during the weekend
 
 ## Contributors
 Maria Giulia Martins (FEEC-Unicamp)
@@ -58,4 +60,6 @@ Kirti Sundar Sahu (University of Waterloo, Canada)
 
 ## Special Thanks
 
-To Helena (2), Laura (11) and Ana Luiza (14) for being very patient while their mother check datasets.
+To Helena (2), Laura (11) and Ana Luiza (14) for being very patient while their mother work during the quarantine period.
+
+## Stay Home! Stay Safe! Save Lives!
