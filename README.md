@@ -1,7 +1,7 @@
 # COVID-19 - Brazilian States
 Data, analysis and graphs of the advancement of COVID-19 in Brazil
 
-# Description
+## Description
 
 The dataset *COVID-19_Brazil_States_CONFIRMED.csv* was generated thanks to the joint effort of researchers and students of the School of Electrical and Computer Engineering of the University of Campinas (UNICAMP) and researchers of the University of Brasília (UnB).
 
