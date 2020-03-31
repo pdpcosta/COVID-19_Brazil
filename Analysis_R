@@ -1,17 +1,21 @@
 library(tidyverse)
 library(gganimate)
 library(magick)
+data = read.csv("~/Desktop/untitled folder/Brazil DashBoard/Top10.csv")
+#data <- read.csv("https://raw.githubusercontent.com/pdpcosta/COVID-19_Brazil/master/COVID-19_Brazil_States_CONFIRMED.csv")
 
-data <- read.csv("https://raw.githubusercontent.com/pdpcosta/COVID-19_Brazil/master/COVID-19_Brazil_States_CONFIRMED.csv")
 data$Date<-as.POSIXct(data$Date)
-pbz<-ggplot(data,aes(data$Date,data$Confirmed, color= data$State, size = data$Confirmed, shape= data$Region)) +geom_point()
+#pbz1<-ggplot(data,aes(data$Date,data$Confirmed, color= data$State, size = data$Confirmed, shape= data$Region)) +geom_point()
+pbz<-ggplot(data,aes(data$Date,data$Confirmed, color= data$State, size = data$Confirmed)) +geom_point()
+
 PLOT<- pbz+ theme_bw() +
   # gganimate specific bits:
-  labs(title = 'Date: {frame_time} Prepared by:Kirti Sundar Sahu (Updated as on March 24,2020)', x = 'Date', y = 'Confirmed case of COVID19') +
+  labs(title = 'Date: {frame_time} Daily COVID19 cases in Top 10 States of Brazil by:Kirti Sundar Sahu (Updated as on March 30,2020)', x = 'Date', y = 'Confirmed case of COVID19') +
   transition_time(data$Date) +
   ease_aes('linear') +
   shadow_mark()
-animate(PLOT,height = 600, width =1200,renderer = gifski_renderer("covid19_Brazil.gif"))
+animate(PLOT,height = 600, width =1200,res = 100,renderer = gifski_renderer("covid19_Brazil.gif"))
+
 
 ####ShinyApp Dashboard for Brazil_COVID19
 
