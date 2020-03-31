@@ -33,6 +33,7 @@ North,AC,2020-03-26,24
 North,AC,2020-03-27,25
 North,AC,2020-03-28,25
 North,AC,2020-03-29,34
+North,AC,2020-03-30,42
 Northeast,AL,2020-02-25,0
 Northeast,AL,2020-02-26,0
 Northeast,AL,2020-02-27,0
@@ -67,6 +68,7 @@ Northeast,AL,2020-03-26,11
 Northeast,AL,2020-03-27,12
 Northeast,AL,2020-03-28,14
 Northeast,AL,2020-03-29,17
+Northeast,AL,2020-03-30,17
 North,AM,2020-02-25,0
 North,AM,2020-02-26,0
 North,AM,2020-02-27,0
@@ -101,6 +103,7 @@ North,AM,2020-03-26,67
 North,AM,2020-03-27,81
 North,AM,2020-03-28,111
 North,AM,2020-03-29,140
+North,AM,2020-03-30,151
 North,AP,2020-02-25,0
 North,AP,2020-02-26,0
 North,AP,2020-02-27,0
@@ -134,7 +137,8 @@ North,AP,2020-03-25,2
 North,AP,2020-03-26,2
 North,AP,2020-03-27,3
 North,AP,2020-03-28,4
-North,AP,2020-03-29,4
+North,AP,2020-03-29,8
+North,AP,2020-03-30,8
 Northeast,BA,2020-02-25,0
 Northeast,BA,2020-02-26,0
 Northeast,BA,2020-02-27,0
@@ -169,6 +173,7 @@ Northeast,BA,2020-03-26,108
 Northeast,BA,2020-03-27,123
 Northeast,BA,2020-03-28,128
 Northeast,BA,2020-03-29,156
+Northeast,BA,2020-03-30,176
 Northeast,CE,2020-02-25,0
 Northeast,CE,2020-02-26,0
 Northeast,CE,2020-02-27,0
@@ -203,6 +208,7 @@ Northeast,CE,2020-03-26,235
 Northeast,CE,2020-03-27,282
 Northeast,CE,2020-03-28,322
 Northeast,CE,2020-03-29,359
+Northeast,CE,2020-03-30,382
 Midwest,DF,2020-02-25,0
 Midwest,DF,2020-02-26,0
 Midwest,DF,2020-02-27,0
@@ -237,6 +243,7 @@ Midwest,DF,2020-03-26,203
 Midwest,DF,2020-03-27,241
 Midwest,DF,2020-03-28,260
 Midwest,DF,2020-03-29,298
+Midwest,DF,2020-03-30,312
 Southeast,ES,2020-02-25,0
 Southeast,ES,2020-02-26,0
 Southeast,ES,2020-02-27,0
@@ -271,6 +278,7 @@ Southeast,ES,2020-03-26,48
 Southeast,ES,2020-03-27,54
 Southeast,ES,2020-03-28,60
 Southeast,ES,2020-03-29,72
+Southeast,ES,2020-03-30,85
 Midwest,GO,2020-02-25,0
 Midwest,GO,2020-02-26,0
 Midwest,GO,2020-02-27,0
@@ -305,6 +313,7 @@ Midwest,GO,2020-03-26,38
 Midwest,GO,2020-03-27,49
 Midwest,GO,2020-03-28,56
 Midwest,GO,2020-03-29,58
+Midwest,GO,2020-03-30,60
 Northeast,MA,2020-02-25,0
 Northeast,MA,2020-02-26,0
 Northeast,MA,2020-02-27,0
@@ -339,6 +348,7 @@ Northeast,MA,2020-03-26,10
 Northeast,MA,2020-03-27,14
 Northeast,MA,2020-03-28,16
 Northeast,MA,2020-03-29,22
+Northeast,MA,2020-03-30,31
 Southeast,MG,2020-02-25,0
 Southeast,MG,2020-02-26,0
 Southeast,MG,2020-02-27,0
@@ -373,6 +383,7 @@ Southeast,MG,2020-03-26,153
 Southeast,MG,2020-03-27,189
 Southeast,MG,2020-03-28,205
 Southeast,MG,2020-03-29,231
+Southeast,MG,2020-03-30,261
 Midwest,MS,2020-02-25,0
 Midwest,MS,2020-02-26,0
 Midwest,MS,2020-02-27,0
@@ -407,6 +418,7 @@ Midwest,MS,2020-03-26,25
 Midwest,MS,2020-03-27,28
 Midwest,MS,2020-03-28,31
 Midwest,MS,2020-03-29,36
+Midwest,MS,2020-03-30,44
 Midwest,MT,2020-02-25,0
 Midwest,MT,2020-02-26,0
 Midwest,MT,2020-02-27,0
@@ -441,6 +453,7 @@ Midwest,MT,2020-03-26,11
 Midwest,MT,2020-03-27,11
 Midwest,MT,2020-03-28,11
 Midwest,MT,2020-03-29,11
+Midwest,MT,2020-03-30,18
 North,PA,2020-02-25,0
 North,PA,2020-02-26,0
 North,PA,2020-02-27,0
@@ -475,6 +488,7 @@ North,PA,2020-03-26,13
 North,PA,2020-03-27,16
 North,PA,2020-03-28,18
 North,PA,2020-03-29,20
+North,PA,2020-03-30,26
 Northeast,PB,2020-02-25,0
 Northeast,PB,2020-02-26,0
 Northeast,PB,2020-02-27,0
@@ -509,6 +523,7 @@ Northeast,PB,2020-03-26,6
 Northeast,PB,2020-03-27,10
 Northeast,PB,2020-03-28,14
 Northeast,PB,2020-03-29,0
+Northeast,PB,2020-03-30,17
 Northeast,PE,2020-02-25,0
 Northeast,PE,2020-02-26,0
 Northeast,PE,2020-02-27,0
@@ -544,6 +559,7 @@ Northeast,PE,2020-03-26,48
 Northeast,PE,2020-03-27,57
 Northeast,PE,2020-03-28,68
 Northeast,PE,2020-03-29,73
+Northeast,PE,2020-03-30,77
 Northeast,PI,2020-02-25,0
 Northeast,PI,2020-02-26,0
 Northeast,PI,2020-02-27,0
@@ -578,6 +594,7 @@ Northeast,PI,2020-03-26,9
 Northeast,PI,2020-03-27,9
 Northeast,PI,2020-03-28,11
 Northeast,PI,2020-03-29,16
+Northeast,PI,2020-03-30,18
 South,PR,2020-02-25,0
 South,PR,2020-02-26,0
 South,PR,2020-02-27,0
@@ -612,6 +629,7 @@ South,PR,2020-03-26,106
 South,PR,2020-03-27,125
 South,PR,2020-03-28,137
 South,PR,2020-03-29,152
+South,PR,2020-03-30,160
 Southeast,RJ,2020-02-25,0
 Southeast,RJ,2020-02-26,0
 Southeast,RJ,2020-02-27,0
@@ -646,6 +664,7 @@ Southeast,RJ,2020-03-26,421
 Southeast,RJ,2020-03-27,493
 Southeast,RJ,2020-03-28,558
 Southeast,RJ,2020-03-29,600
+Southeast,RJ,2020-03-30,657
 Northeast,RN,2020-02-25,0
 Northeast,RN,2020-02-26,0
 Northeast,RN,2020-02-27,0
@@ -680,6 +699,7 @@ Northeast,RN,2020-03-26,19
 Northeast,RN,2020-03-27,28
 Northeast,RN,2020-03-28,45
 Northeast,RN,2020-03-29,68
+Northeast,RN,2020-03-30,77
 North,RO,2020-02-25,0
 North,RO,2020-02-26,0
 North,RO,2020-02-27,0
@@ -714,6 +734,7 @@ North,RO,2020-03-26,6
 North,RO,2020-03-27,6
 North,RO,2020-03-28,6
 North,RO,2020-03-29,6
+North,RO,2020-03-30,8
 North,RR,2020-02-25,0
 North,RR,2020-02-26,0
 North,RR,2020-02-27,0
@@ -748,6 +769,7 @@ North,RR,2020-03-26,10
 North,RR,2020-03-27,12
 North,RR,2020-03-28,16
 North,RR,2020-03-29,16
+North,RR,2020-03-30,16
 South,RS,2020-02-25,0
 South,RS,2020-02-26,0
 South,RS,2020-02-27,0
@@ -782,6 +804,7 @@ South,RS,2020-03-26,190
 South,RS,2020-03-27,197
 South,RS,2020-03-28,200
 South,RS,2020-03-29,239
+South,RS,2020-03-30,254
 South,SC,2020-02-25,0
 South,SC,2020-02-26,0
 South,SC,2020-02-27,0
@@ -816,6 +839,7 @@ South,SC,2020-03-26,149
 South,SC,2020-03-27,163
 South,SC,2020-03-28,184
 South,SC,2020-03-29,197
+South,SC,2020-03-30,219
 Northeast,SE,2020-02-25,0
 Northeast,SE,2020-02-26,0
 Northeast,SE,2020-02-27,0
@@ -850,6 +874,7 @@ Northeast,SE,2020-03-26,16
 Northeast,SE,2020-03-27,16
 Northeast,SE,2020-03-28,16
 Northeast,SE,2020-03-29,NA
+Northeast,SE,2020-03-30,18
 Southeast,SP,2020-02-25,0
 Southeast,SP,2020-02-26,1
 Southeast,SP,2020-02-27,1
@@ -884,6 +909,7 @@ Southeast,SP,2020-03-26,1052
 Southeast,SP,2020-03-27,1223
 Southeast,SP,2020-03-28,1406
 Southeast,SP,2020-03-29,1451
+Southeast,SP,2020-03-30,1517
 North,TO,2020-02-25,0
 North,TO,2020-02-26,0
 North,TO,2020-02-27,0
@@ -918,3 +944,4 @@ North,TO,2020-03-26,8
 North,TO,2020-03-27,9
 North,TO,2020-03-28,9
 North,TO,2020-03-29,10
+North,TO,2020-03-30,11
