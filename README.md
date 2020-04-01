@@ -2,8 +2,8 @@
 **2020-04-01 Important Update **
 
 Datasets were moved to DATA folder and new datasets were added.
-
 ---
+
 # COVID-19 - Brazilian States
 Data, analysis and graphs of the advancement of COVID-19 in Brazil
 
