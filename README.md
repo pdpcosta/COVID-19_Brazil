@@ -38,7 +38,13 @@ Guilherme Lisboa (IMECC-Unicamp)
 
 Thiago Ribas Bella (FEEC-Unicamp)
 
-JHictor Macchini (FEEC - Unicamp)
+Júlia Perassolli De Lázari (FEEC - Unicamp)
+
+Victor Macchini (FEEC - Unicamp)
+
+Renan Cyrillo Lima (IMEEC - Unicamp)
+
+Welington Corozolla (FCM - Unicamp)
 
 Prof. Paula Dornhofer Paro Costa (FEEC-Unicamp)
 
