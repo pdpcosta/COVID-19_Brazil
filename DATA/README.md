@@ -1,6 +1,9 @@
-# Datasets Information
-
+---
+**2020-04-01 Important Update **
 On April 1, 2020, we made important changes to the datasets in order to make new data available in a more organized way, facilitating the daily update of the same. If you were using the files "COVID-19_Brazil_States_CONFIRMED.csv" or "COVID-19_Brazil_States_DEATH.csv" you must redirect your access path to the unified file "COVID-19_Brazil_CONF_DEATH.csv".
+---
+
+# Datasets Information
 
 ## *COVID-19_Brazil_States_CONFIRMED.csv* Dictionary
 * Column 1 - Region - Brazil is divided into five regions: South, Southeast, Midwest, North, Northeast
