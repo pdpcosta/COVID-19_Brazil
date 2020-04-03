@@ -1,5 +1,5 @@
-[!WARNING]
-This is a warning
+>[!WARNING]
+>This is a warning
 
 
 ---
