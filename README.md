@@ -13,10 +13,9 @@ The datasets in this repository were generated thanks to the joint effort of res
 
 Our methodology consisted of dividing the country into regions and states and looking for sources of information regarding confirmed cases of COVID-19 in that region. This procedure was necessary because we realized that the numbers provided by the  Ministry of Health in Brazil, for some regions, were outdated or discrepant.
 
-The confirmed and death numbers are updated daily. Data is mined by one person and verified by a different one in official communication channels but also in media.
+We do not collect data using bots. Our data is daily curated by a team of researchers that checks the information in multiple official communication channels and media. Data is mined by one person and verified by a different one. Our process is documented here: https://docs.google.com/spreadsheets/d/1RkovtMc-o7fGdGf5SBR8kYWQQCsTn-7CdACsUgJHLxI/edit?usp=sharing
 
 Since March, 19th 2020, the Brazilian Ministry of Health is not sharing any CSV file or any other dataset format that researchers could use to process the data. This is the reason that we decided to generate our own dataset.
-
 
 Under development: ShinyApp for Brazil: https://kirtisundarsahu.shinyapps.io/BRAZIL_shinyapp/ , Shiny Dashboard for Brazil: https://kirtisundarsahu.shinyapps.io/Brazil_DashBoard/
 
