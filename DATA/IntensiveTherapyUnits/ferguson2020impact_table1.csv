@@ -1,4 +1,4 @@
-AgeGroup,minAge,maxAge,SymptomaticCases,HospitalisedCases
+AgeGroup,minAge,maxAge,Hospitalisation,CriticalCare
 1,0,9,0.001,0.050
 2,10,19,0.003,0.050
 3,20,29,0.012,0.050
