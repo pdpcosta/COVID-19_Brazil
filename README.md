@@ -21,7 +21,10 @@ Since March, 19th 2020, the Brazilian Ministry of Health is not sharing any CSV 
 
 Under development: ShinyApp for Brazil: https://kirtisundarsahu.shinyapps.io/BRAZIL_shinyapp/ , Shiny Dashboard for Brazil: https://kirtisundarsahu.shinyapps.io/Brazil_DashBoard/
 
-## Updates
+## Highlighted Updates
+
+2020-04-04 - We added an analysis of the possible collapse of Brazilian states health system
+
 2020-04-01 - We moved datasets do folder DATA. We added two datasets with data in rows, including population and territory information.
 
 2020-03-27 - Datasets updated and added dataset with death numbers
